@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "BSxT7F76Kwi4m5fxLTMc+bPUmfpnw9kO3sEzkG9tOT7x4BNP4WBRpsN0YTsBEBwUPCaBuSk/2g5t1S8cHHzCUg==",
+  "dgSpecHash": "ZYVVrypBhPk0buImLNGYRrhpcrufxm04Jvu8iQNupnenDBNYPdsYw0k4I2NbZzYJ6N7M3EQBLD714BvAUbjxcw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Duc\\Desktop\\New folder (4)\\Realtime\\Realtime.csproj",
   "expectedPackageFiles": [
@@ -89,11 +89,7 @@
     "C:\\Users\\Duc\\.nuget\\packages\\system.text.json\\7.0.3\\system.text.json.7.0.3.nupkg.sha512",
     "C:\\Users\\Duc\\.nuget\\packages\\system.threading.channels\\7.0.0\\system.threading.channels.7.0.0.nupkg.sha512",
     "C:\\Users\\Duc\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
-    "C:\\Users\\Duc\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512",
-    "C:\\Users\\Duc\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.25\\microsoft.windowsdesktop.app.ref.6.0.25.nupkg.sha512",
-    "C:\\Users\\Duc\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.25\\microsoft.netcore.app.ref.6.0.25.nupkg.sha512",
-    "C:\\Users\\Duc\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.25\\microsoft.aspnetcore.app.ref.6.0.25.nupkg.sha512",
-    "C:\\Users\\Duc\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.25\\microsoft.netcore.app.host.win-x64.6.0.25.nupkg.sha512"
+    "C:\\Users\\Duc\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512"
   ],
   "logs": []
 }

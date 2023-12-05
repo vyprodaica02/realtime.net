@@ -55,7 +55,6 @@ namespace Realtime.Controllers
         {
             List<Claim> claims = new List<Claim>
             {
-               // new Claim("Email nguoi dung", phatTu.Email),//lấy ra data người dùng
                 new Claim("userId", user.Id.ToString()),
                 new Claim("Name",user.TenUser.ToString()),
             };
