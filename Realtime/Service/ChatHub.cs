@@ -24,5 +24,26 @@ namespace Realtime.Service
             await _dbContext.SaveChangesAsync();
 
         }
+
+        public async Task<List<Message>> GetMessages(int userSenID, int userResenId)
+        {
+            using (var trans = _dbContext.Database.BeginTransaction())
+            {
+                if (userSenID == 0 || userResenId == 0)
+                {
+                    return null;
+                }
+
+                var messages = _dbContext.messages
+                    .Where(x => (x.SenderUserId == userSenID && x.ReceiverUserId == userResenId) ||
+                                (x.SenderUserId == userResenId && x.ReceiverUserId == userSenID))
+                    .OrderByDescending(x => x.Timestamp)
+                    .ToList();
+
+                return messages;
+            }
+        }
+
+
     }
 }

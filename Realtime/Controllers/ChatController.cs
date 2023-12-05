@@ -32,6 +32,12 @@ namespace Realtime.Controllers
 
             return Ok("gửi thành công");
         }
+        [HttpGet("GetMessage")]
+        public async Task<IActionResult> GetMessage (int senUserId,int ResenUserid)
+        {
+            var res = _chatHub.GetMessages(senUserId, ResenUserid);
+            return Ok(res);
+        }
 
     }
 }

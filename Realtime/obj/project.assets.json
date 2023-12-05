@@ -4270,11 +4270,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Duc\\Desktop\\New folder (4)\\Realtime\\Realtime.csproj",
+      "projectUniqueName": "C:\\Users\\Duc\\Desktop\\realtimee\\Realtime\\Realtime.csproj",
       "projectName": "Realtime",
-      "projectPath": "C:\\Users\\Duc\\Desktop\\New folder (4)\\Realtime\\Realtime.csproj",
+      "projectPath": "C:\\Users\\Duc\\Desktop\\realtimee\\Realtime\\Realtime.csproj",
       "packagesPath": "C:\\Users\\Duc\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Duc\\Desktop\\New folder (4)\\Realtime\\obj\\",
+      "outputPath": "C:\\Users\\Duc\\Desktop\\realtimee\\Realtime\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages",
@@ -4292,6 +4292,7 @@
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "C:\\Program Files\\DevExpress 22.2\\Components\\System\\Components\\Packages": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -4304,9 +4305,6 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "default"
       }
     },
     "frameworks": {
