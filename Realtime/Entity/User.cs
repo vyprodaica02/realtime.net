@@ -6,7 +6,6 @@ namespace Realtime.Entity
     {
         public string TenUser { get; set; }
         public string Email { get; set; }
-        //[JsonIgnore]
         public string Password { get; set; }
     }
 

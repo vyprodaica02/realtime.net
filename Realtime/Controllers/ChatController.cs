@@ -29,6 +29,7 @@ namespace Realtime.Controllers
             }
             _chatHub.SendMessage(messageModel);
             await _hubContext.Clients.User(messageModel.ReceiverUserId.ToString()).SendAsync("ReceiveMessage", messageModel);
+            await _hubContext.Clients.All.SendAsync("SendMessage", messageModel);
 
             return Ok("gửi thành công");
         }

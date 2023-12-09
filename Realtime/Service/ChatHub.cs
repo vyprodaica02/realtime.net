@@ -22,7 +22,7 @@ namespace Realtime.Service
 
             _dbContext.messages.Add(message);
             await _dbContext.SaveChangesAsync();
-
+            await Clients.All.SendAsync("ReceiveMessage", message);
         }
 
         public async Task<List<Message>> GetMessages(int userSenID, int userResenId)
